@@ -2830,33 +2830,6 @@
         "name": "glove.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
-        "name": "NewSprite3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
-        "name": "NewSprite4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Graduate-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Kenney/Pixel art/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
       }
     ]
   },
@@ -2897,7 +2870,7 @@
       "objectsGroups": [],
       "variables": [
         {
-          "name": "T_way",
+          "name": "T_sway",
           "type": "boolean",
           "value": false
         },
@@ -3471,7 +3444,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "T_way",
+                "T_sway",
                 "True",
                 ""
               ]
@@ -3486,13 +3459,6 @@
                 "10"
               ]
             }
-          ],
-          "variables": [
-            {
-              "name": "Variable",
-              "type": "number",
-              "value": 0
-            }
           ]
         },
         {
@@ -3503,7 +3469,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "T_way",
+                "T_sway",
                 "True",
                 ""
               ]
@@ -5241,7 +5207,6 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-<<<<<<< HEAD
         "zoomFactor": 0.33253870912507727,
         "windowMask": false,
         "selectedLayer": "",
@@ -5347,31 +5312,12 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 0.24672586957406317,
-=======
-        "zoomFactor": 0.7370816317994044,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "name": "L1",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "name": "L2",
-          "type": "string",
-          "value": ""
-        },
-        {
-          "name": "L3",
-          "type": "string",
-          "value": ""
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -5379,19 +5325,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-<<<<<<< HEAD
           "name": "block",
           "persistentUuid": "435ecbe3-698b-4495-958f-fa355355f059",
           "width": 0,
           "x": 256,
           "y": 640,
-=======
-          "name": "Col1",
-          "persistentUuid": "1decf4ee-4b9e-46d1-ad4f-54e3e3af6c5a",
-          "width": 0,
-          "x": 221,
-          "y": 449,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5403,19 +5341,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-<<<<<<< HEAD
           "name": "bridge",
           "persistentUuid": "23816a6e-cd81-486c-8312-9590cb5f3cc1",
           "width": 0,
           "x": 288,
           "y": 992,
-=======
-          "name": "Col2",
-          "persistentUuid": "bbee039f-e35a-40e1-84b9-a14b1f27596a",
-          "width": 0,
-          "x": 327,
-          "y": 441,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5427,19 +5357,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-<<<<<<< HEAD
           "name": "bridge",
           "persistentUuid": "819c070e-a31f-4db0-8906-ed53dcb9f34e",
           "width": 0,
           "x": 352,
           "y": 992,
-=======
-          "name": "Col3",
-          "persistentUuid": "1b3b7442-413a-418b-b041-342b6e844fcf",
-          "width": 0,
-          "x": 426,
-          "y": 300,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5447,7 +5369,6 @@
         },
         {
           "angle": 0,
-<<<<<<< HEAD
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -5458,42 +5379,12 @@
           "x": 224,
           "y": 992,
           "zOrder": 4,
-=======
-          "customSize": true,
-          "depth": 1,
-          "height": 312,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "4fea3c73-24ff-4615-91c8-3098e5f67018",
-          "width": 724,
-          "x": -5,
-          "y": 528,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wintext",
-          "persistentUuid": "24e46f3f-3ea6-4243-8617-b78f3748d3b4",
-          "width": 0,
-          "x": 267,
-          "y": 247,
-          "zOrder": 8,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-<<<<<<< HEAD
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -6248,101 +6139,6 @@
           "x": 0,
           "y": 544,
           "zOrder": -3,
-=======
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "c50be8b8-bb40-4b05-92a4-d775eada394c",
-          "width": 4,
-          "x": 294,
-          "y": 620,
-          "zOrder": 6,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1.0491803278688523,
-          "height": 64,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "366faf04-2d96-40cb-8eaf-a6a55beb6dcf",
-          "width": 4,
-          "x": 401,
-          "y": 619,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1.0491803278688523,
-          "height": 64,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "e037feae-bbc1-40f0-a99a-33fdb56cc3af",
-          "width": 4,
-          "x": 486,
-          "y": 619,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1.0491803278688523,
-          "height": 64,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "4ef3dc70-7986-45be-9137-9a254f6c64a3",
-          "width": 4,
-          "x": 198,
-          "y": 619,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 628,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "b70764c1-ec5e-4372-b2ff-6772ab2a088d",
-          "width": 719,
-          "x": 0,
-          "y": -15,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 611,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "72817d91-c8e4-441a-89e3-bc8f38ad14ce",
-          "width": 720,
-          "x": 0,
-          "y": 689,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6350,28 +6146,16 @@
       ],
       "objects": [
         {
-<<<<<<< HEAD
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "9ea98a3c510871f615338e9efe864fabd934c14691ef4bef6da8f0935e5538f4",
           "name": "character_purple",
           "persistentUuid": "e2a8b83c-8723-4159-aa60-e3bd339e52df",
           "type": "Sprite",
           "updateIfNotVisible": false,
-=======
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Col1",
-          "persistentUuid": "d9b3fadd-50a4-4a40-a0f2-92018c5ae5a1",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "variables": [],
           "effects": [],
           "behaviors": [
             {
-<<<<<<< HEAD
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -6809,162 +6593,6 @@
           "assetStoreId": "c4600f094f2f7a1be0e29901618678e667d5c654bb2ec5e95ce74efa446db3cd",
           "name": "barnacle",
           "persistentUuid": "aa4689e1-c994-48dd-88af-93fc4105d15f",
-=======
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "A\nB\nC\nT\nD\nE",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 247,
-            "g": 247,
-            "r": 247
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "A\nB\nC\nT\nD\nE",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 75,
-            "color": "247;247;247"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Col2",
-          "persistentUuid": "dc04a304-4645-4b64-a09d-7f88bc665224",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "A\nB\nO\nC\nD\nE\n",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 247,
-            "g": 247,
-            "r": 247
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "A\nB\nO\nC\nD\nE\n",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 75,
-            "color": "247;247;247"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Col3",
-          "persistentUuid": "eb15a6b5-c959-4336-8edc-9ce136bbf8c9",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "A\nP\nB\nC\nD\nE",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 247,
-            "g": 247,
-            "r": 247
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "A\nP\nB\nC\nD\nE",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 75,
-            "color": "247;247;247"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Background",
-          "persistentUuid": "45028fda-c2f1-47f7-a76d-1da5de28a1ad",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6972,11 +6600,7 @@
           "behaviors": [],
           "animations": [
             {
-<<<<<<< HEAD
               "name": "Attack",
-=======
-              "name": "NewSprite",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6985,7 +6609,6 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-<<<<<<< HEAD
                       "image": "barnacle_Attack_1.png",
                       "points": [],
                       "originPoint": {
@@ -14607,9 +14230,6 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "coin bronze_face.png",
-=======
-                      "image": "NewSprite3",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14625,7 +14245,6 @@
                       "customCollisionMask": [
                         [
                           {
-<<<<<<< HEAD
                             "x": 13,
                             "y": 12
                           },
@@ -17217,22 +16836,6 @@
                           {
                             "x": 13,
                             "y": 52
-=======
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                           }
                         ]
                       ]
@@ -17244,8 +16847,8 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-<<<<<<< HEAD
           "name": "NewSprite",
           "persistentUuid": "7e5ae12c-c86b-4d1f-9e79-6498e596dbfd",
           "type": "Sprite",
@@ -17304,60 +16907,12 @@
               ]
             }
           ]
-=======
-          "bold": true,
-          "italic": false,
-          "name": "Wintext",
-          "persistentUuid": "a9690b3a-bdd2-4006-86da-0431b73940af",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Win !!!",
-          "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 14,
-            "g": 14,
-            "r": 167
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 6,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Win !!!",
-            "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 0,
-            "color": "167;14;14"
-          }
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-<<<<<<< HEAD
           "name": "NewSprite2",
           "persistentUuid": "edb0545f-fb4c-4ddc-9804-852d429bed0b",
-=======
-          "name": "Line",
-          "persistentUuid": "eb1c213d-af08-4927-a837-7a986d64033d",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17365,11 +16920,7 @@
           "behaviors": [],
           "animations": [
             {
-<<<<<<< HEAD
               "name": "NewSprite",
-=======
-              "name": "NewSprite2",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -17409,7 +16960,6 @@
                           {
                             "x": 0,
                             "y": 64
-<<<<<<< HEAD
                           }
                         ]
                       ]
@@ -17480,8 +17030,6 @@
                           {
                             "x": 0,
                             "y": 64
-=======
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                           }
                         ]
                       ]
@@ -17497,7 +17045,6 @@
         "folderName": "__ROOT",
         "children": [
           {
-<<<<<<< HEAD
             "objectName": "character_purple"
           },
           {
@@ -17685,24 +17232,6 @@
           },
           {
             "objectName": "NewSprite2"
-=======
-            "objectName": "Col1"
-          },
-          {
-            "objectName": "Wintext"
-          },
-          {
-            "objectName": "Col2"
-          },
-          {
-            "objectName": "Line"
-          },
-          {
-            "objectName": "Col3"
-          },
-          {
-            "objectName": "Background"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           }
         ]
       },
@@ -17916,7 +17445,6 @@
                 "value": "PlatformBehavior::Gravity"
               },
               "parameters": [
-<<<<<<< HEAD
                 "key",
                 "PlatformerObject",
                 "=",
@@ -17933,16 +17461,12 @@
                 "character_purple.X() + 40",
                 "=",
                 "character_purple.Y() - 18"
-=======
-                "Wintext"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-<<<<<<< HEAD
           "conditions": [
             {
               "type": {
@@ -18181,6 +17705,11 @@
           "name": "clicked",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "flip",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -18534,8 +18063,6 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-=======
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "conditions": [],
           "actions": [
             {
@@ -18543,43 +18070,11 @@
                 "value": "SetXY"
               },
               "parameters": [
-<<<<<<< HEAD
                 "Glove",
                 "=",
                 "CursorX()",
                 "=",
                 "CursorY()"
-=======
-                "Col1",
-                "=",
-                "221",
-                "=",
-                "Col1.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Col2",
-                "=",
-                "328",
-                "=",
-                " Col2.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Col3",
-                "=",
-                "423",
-                "=",
-                "Col3.Y()"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ]
@@ -18589,23 +18084,15 @@
           "conditions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-=======
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Col1",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                 "\"Left\""
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "BooleanVariable"
               },
               "parameters": [
@@ -18613,17 +18100,11 @@
                 "False",
                 ""
               ]
-=======
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
             }
           ],
           "actions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -18638,19 +18119,6 @@
               },
               "parameters": [
                 "1.2"
-=======
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Col1",
-                "Tween",
-                "\"Snap\"",
-                "221",
-                "453 + round((Col1.Y()-453)/75)*75",
-                "\"linear\"",
-                "0.1",
-                "no"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ]
@@ -18660,102 +18128,18 @@
           "conditions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "BooleanVariable"
               },
               "parameters": [
                 "clicked",
                 "True",
                 ""
-=======
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Col2",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Col2",
-                "Tween",
-                "\"Snap\"",
-                "328",
-                "round(Col2.Y()/75)*75",
-                "\"linear\"",
-                "0.1",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Col3",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Col3",
-                "Tween",
-                "\"Snap\"",
-                "423",
-                "377 + round((Col3.Y()-377)/75)*75",
-                "\"linear\"",
-                "0.1",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "round(Col1.Y()/75)",
-                "=",
-                "5"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ],
           "actions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "RotateTowardAngle"
               },
               "parameters": [
@@ -18763,105 +18147,18 @@
                 "-90",
                 "900",
                 ""
-=======
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "L1",
-                "=",
-                "\"T\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "round(Col2.Y()/75) ",
-                "=",
-                "6"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "L2",
-                "=",
-                "\"O\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "round(Col3.Y()/75) ",
-                "=",
-                "7"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "L3",
-                "=",
-                "\"P\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "VariableString(L1)",
-                "=",
-                "\"T\""
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "Wait"
               },
               "parameters": [
                 "1"
-=======
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "VariableString(L2)",
-                "=",
-                "\"O\""
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "RotateTowardAngle"
               },
               "parameters": [
@@ -18878,24 +18175,6 @@
               "parameters": [
                 "clicked",
                 "False",
-=======
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "VariableString(L3)",
-                "=",
-                "\"P\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Wintext",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                 ""
               ]
             }
@@ -18906,7 +18185,6 @@
           "conditions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -18916,29 +18194,55 @@
                 "",
                 ""
               ]
-            }
-          ],
-=======
-                "value": "BuiltinCommonInstructions::CompareNumbers"
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
-                "Col1.Y()",
-                "<",
-                "228"
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "flip",
+                "=",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetXY"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Col1",
+                "NewSprite2",
+                "Animation",
                 "=",
-                "221",
+                "\"flip\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "flip",
                 "=",
-                "228"
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
               ]
             }
           ]
@@ -18948,142 +18252,64 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "Col1.Y() ",
-                ">",
-                "603"
+                "Glove",
+                "NewSprite2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "flip",
+                "=",
+                "1"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetXY"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Col1",
+                "NewSprite2",
+                "Animation",
                 "=",
-                "221",
-                "=",
-                "603"
+                "\"upside down\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Col2.Y()",
-                "<",
-                "228"
+                "flip",
+                "=",
+                "2"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "SetXY"
+                "value": "Wait"
               },
               "parameters": [
-                "Col2",
-                "=",
-                "328",
-                "=",
-                "228"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "Col2.Y() ",
-                ">",
-                "603"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Col2",
-                "=",
-                "328",
-                "=",
-                "603"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "Col3.Y()",
-                "<",
-                "228"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Col3",
-                "=",
-                "423",
-                "=",
-                "228"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "Col3.Y() ",
-                ">",
-                "603"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Col3",
-                "=",
-                "423",
-                "=",
-                "603"
+                "1"
               ]
             }
           ]
@@ -19091,7 +18317,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "actions": []
         }
       ],
@@ -19186,17 +18411,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-<<<<<<< HEAD
-=======
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
         }
       ]
     }

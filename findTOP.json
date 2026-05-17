@@ -147,6 +147,33 @@
         "name": "Slot1",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Graduate-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Kenney/Pixel art/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -255,7 +282,7 @@
       "objectsGroups": [],
       "variables": [
         {
-          "name": "T_sway",
+          "name": "T_way",
           "type": "boolean",
           "value": false
         }
@@ -759,7 +786,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "T_sway",
+                "T_way",
                 "True",
                 ""
               ]
@@ -774,6 +801,13 @@
                 "5"
               ]
             }
+          ],
+          "variables": [
+            {
+              "name": "Variable",
+              "type": "number",
+              "value": 0
+            }
           ]
         },
         {
@@ -784,7 +818,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "T_sway",
+                "T_way",
                 "True",
                 ""
               ]
@@ -953,13 +987,29 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513977,
+        "zoomFactor": 0.7370816317994044,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "L1",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "L2",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "L3",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -967,11 +1017,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Letter_T",
+          "name": "Col1",
           "persistentUuid": "1decf4ee-4b9e-46d1-ad4f-54e3e3af6c5a",
           "width": 0,
-          "x": 171,
-          "y": 549,
+          "x": 221,
+          "y": 449,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -983,11 +1033,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Letter_O",
+          "name": "Col2",
           "persistentUuid": "bbee039f-e35a-40e1-84b9-a14b1f27596a",
           "width": 0,
-          "x": 290,
-          "y": 583,
+          "x": 327,
+          "y": 441,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -999,11 +1049,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Letter_P",
+          "name": "Col3",
           "persistentUuid": "1b3b7442-413a-418b-b041-342b6e844fcf",
           "width": 0,
-          "x": 384,
-          "y": 587,
+          "x": 426,
+          "y": 300,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1013,15 +1063,31 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 144,
+          "height": 312,
           "keepRatio": true,
           "layer": "",
-          "name": "Slot1",
-          "persistentUuid": "186ac797-b459-475f-b87f-cbdbf48774a4",
-          "width": 135,
-          "x": 128,
-          "y": 374,
-          "zOrder": 4,
+          "name": "Background",
+          "persistentUuid": "4fea3c73-24ff-4615-91c8-3098e5f67018",
+          "width": 724,
+          "x": -5,
+          "y": 528,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wintext",
+          "persistentUuid": "24e46f3f-3ea6-4243-8617-b78f3748d3b4",
+          "width": 0,
+          "x": 267,
+          "y": 247,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1030,32 +1096,97 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 126,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
-          "name": "Slot2",
-          "persistentUuid": "f0e1f199-724d-4df7-8350-e07812362deb",
-          "width": 146,
-          "x": 248,
-          "y": 387,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 142,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Slot3",
-          "persistentUuid": "c67ab42e-8228-422b-98e1-b28a17af6db7",
-          "width": 165,
-          "x": 370,
-          "y": 371,
+          "name": "Line",
+          "persistentUuid": "c50be8b8-bb40-4b05-92a4-d775eada394c",
+          "width": 4,
+          "x": 294,
+          "y": 620,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0491803278688523,
+          "height": 64,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "366faf04-2d96-40cb-8eaf-a6a55beb6dcf",
+          "width": 4,
+          "x": 401,
+          "y": 619,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0491803278688523,
+          "height": 64,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "e037feae-bbc1-40f0-a99a-33fdb56cc3af",
+          "width": 4,
+          "x": 486,
+          "y": 619,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0491803278688523,
+          "height": 64,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "4ef3dc70-7986-45be-9137-9a254f6c64a3",
+          "width": 4,
+          "x": 198,
+          "y": 619,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 628,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "b70764c1-ec5e-4372-b2ff-6772ab2a088d",
+          "width": 719,
+          "x": 0,
+          "y": -15,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 611,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "72817d91-c8e4-441a-89e3-bc8f38ad14ce",
+          "width": 720,
+          "x": 0,
+          "y": 689,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1066,7 +1197,8 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Letter_T",
+          "name": "Col1",
+          "persistentUuid": "d9b3fadd-50a4-4a40-a0f2-92018c5ae5a1",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -1074,19 +1206,23 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "T",
+          "string": "A\nB\nC\nT\nD\nE",
           "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 247,
+            "g": 247,
+            "r": 247
           },
           "content": {
             "bold": false,
@@ -1102,20 +1238,20 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "T",
+            "text": "A\nB\nC\nT\nD\nE",
             "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "lineHeight": 0,
-            "color": "0;0;0"
+            "lineHeight": 75,
+            "color": "247;247;247"
           }
         },
         {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Letter_O",
+          "name": "Col2",
           "persistentUuid": "dc04a304-4645-4b64-a09d-7f88bc665224",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -1124,19 +1260,23 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "O",
+          "string": "A\nB\nO\nC\nD\nE\n",
           "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 247,
+            "g": 247,
+            "r": 247
           },
           "content": {
             "bold": false,
@@ -1152,20 +1292,20 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "O",
+            "text": "A\nB\nO\nC\nD\nE\n",
             "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "lineHeight": 0,
-            "color": "0;0;0"
+            "lineHeight": 75,
+            "color": "247;247;247"
           }
         },
         {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Letter_P",
+          "name": "Col3",
           "persistentUuid": "eb15a6b5-c959-4336-8edc-9ce136bbf8c9",
           "smoothed": true,
           "type": "TextObject::Text",
@@ -1174,19 +1314,23 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "P",
+          "string": "A\nP\nB\nC\nD\nE",
           "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 247,
+            "g": 247,
+            "r": 247
           },
           "content": {
             "bold": false,
@@ -1202,20 +1346,20 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "P",
+            "text": "A\nP\nB\nC\nD\nE",
             "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "lineHeight": 0,
-            "color": "0;0;0"
+            "lineHeight": 75,
+            "color": "247;247;247"
           }
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Slot1",
-          "persistentUuid": "c307f66e-650c-48eb-b3fa-15639653c579",
+          "name": "Background",
+          "persistentUuid": "45028fda-c2f1-47f7-a76d-1da5de28a1ad",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1223,7 +1367,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Slot1",
+              "name": "NewSprite",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1233,7 +1377,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Slot1",
+                      "image": "NewSprite3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1249,20 +1393,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 13,
-                            "y": 17
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 17
+                            "x": 64,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 51
+                            "x": 64,
+                            "y": 64
                           },
                           {
-                            "x": 13,
-                            "y": 51
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -1274,72 +1418,54 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Slot2",
-          "persistentUuid": "db47d184-c680-4afc-8860-54cbc350177f",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "bold": true,
+          "italic": false,
+          "name": "Wintext",
+          "persistentUuid": "a9690b3a-bdd2-4006-86da-0431b73940af",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "Slot1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Slot1",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 51
-                          },
-                          {
-                            "x": 13,
-                            "y": 51
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "Win !!!",
+          "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 14,
+            "g": 14,
+            "r": 167
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 6,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Win !!!",
+            "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "167;14;14"
+          }
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Slot3",
-          "persistentUuid": "bf07d089-0e71-46a0-8b55-2950a60d8553",
+          "name": "Line",
+          "persistentUuid": "eb1c213d-af08-4927-a837-7a986d64033d",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1347,7 +1473,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Slot1",
+              "name": "NewSprite2",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1357,7 +1483,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Slot1",
+                      "image": "NewSprite4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1373,20 +1499,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 13,
-                            "y": 17
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 17
+                            "x": 64,
+                            "y": 0
                           },
                           {
-                            "x": 50,
-                            "y": 51
+                            "x": 64,
+                            "y": 64
                           },
                           {
-                            "x": 13,
-                            "y": 51
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -1402,22 +1528,22 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "Letter_T"
+            "objectName": "Col1"
           },
           {
-            "objectName": "Letter_O"
+            "objectName": "Wintext"
           },
           {
-            "objectName": "Letter_P"
+            "objectName": "Col2"
           },
           {
-            "objectName": "Slot1"
+            "objectName": "Line"
           },
           {
-            "objectName": "Slot2"
+            "objectName": "Col3"
           },
           {
-            "objectName": "Slot3"
+            "objectName": "Background"
           }
         ]
       },
@@ -1440,26 +1566,469 @@
                 "value": "Hide"
               },
               "parameters": [
-                "Slot1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Slot2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Slot3"
+                "Wintext"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col1",
+                "=",
+                "221",
+                "=",
+                "Col1.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col2",
+                "=",
+                "328",
+                "=",
+                " Col2.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col3",
+                "=",
+                "423",
+                "=",
+                "Col3.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "Col1",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Col1",
+                "Tween",
+                "\"Snap\"",
+                "221",
+                "453 + round((Col1.Y()-453)/75)*75",
+                "\"linear\"",
+                "0.1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "Col2",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Col2",
+                "Tween",
+                "\"Snap\"",
+                "328",
+                "round(Col2.Y()/75)*75",
+                "\"linear\"",
+                "0.1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "Col3",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Col3",
+                "Tween",
+                "\"Snap\"",
+                "423",
+                "377 + round((Col3.Y()-377)/75)*75",
+                "\"linear\"",
+                "0.1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "round(Col1.Y()/75)",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "L1",
+                "=",
+                "\"T\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "round(Col2.Y()/75) ",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "L2",
+                "=",
+                "\"O\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "round(Col3.Y()/75) ",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "L3",
+                "=",
+                "\"P\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "VariableString(L1)",
+                "=",
+                "\"T\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "VariableString(L2)",
+                "=",
+                "\"O\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "VariableString(L3)",
+                "=",
+                "\"P\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Wintext",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col1.Y()",
+                "<",
+                "228"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col1",
+                "=",
+                "221",
+                "=",
+                "228"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col1.Y() ",
+                ">",
+                "603"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col1",
+                "=",
+                "221",
+                "=",
+                "603"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col2.Y()",
+                "<",
+                "228"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col2",
+                "=",
+                "328",
+                "=",
+                "228"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col2.Y() ",
+                ">",
+                "603"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col2",
+                "=",
+                "328",
+                "=",
+                "603"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col3.Y()",
+                "<",
+                "228"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col3",
+                "=",
+                "423",
+                "=",
+                "228"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col3.Y() ",
+                ">",
+                "603"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col3",
+                "=",
+                "423",
+                "=",
+                "603"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -1557,6 +2126,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }

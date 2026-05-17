@@ -1,6 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -17,7 +18,6 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
-    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
     "name": "findTOP",
     "description": "",
@@ -129,7 +129,6 @@
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "assets/Flashlight.png",
         "kind": "image",
         "metadata": "",
@@ -205,20 +204,10 @@
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
-=======
-        "file": "assets/Kenney Pixel Square.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
->>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
           "name": "gdevelop-asset-store"
         }
       },
       {
-<<<<<<< HEAD
         "file": "assets/character purple_climb_1.png",
         "kind": "image",
         "metadata": "",
@@ -2775,88 +2764,78 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "blue",
-=======
-        "file": "assets/Slot1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "windows.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Slot1",
->>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
+        "metadata": "",
+        "name": "windows.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "the pot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "the pot.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pot upside down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pot upside down.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "the pot2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "the pot2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "the pot3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "the pot3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "the pot flip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "the pot flip.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pot upside down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pot upside down2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "glove.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "glove.png",
         "smoothed": true,
         "userAdded": false
       }
     ]
   },
-  "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "background",
-      "persistentUuid": "ed087546-8629-4e21-8258-eb9d5cdd501c",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "background",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "background2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "background"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "objectsGroups": [],
   "variables": [],
@@ -2892,6 +2871,11 @@
       "variables": [
         {
           "name": "T_sway",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "triangle_direction",
           "type": "boolean",
           "value": false
         }
@@ -2992,8 +2976,8 @@
           "name": "T",
           "persistentUuid": "4b36601d-5cc0-43d2-a7fc-624b28d3ffde",
           "width": 160,
-          "x": 291,
-          "y": 608,
+          "x": 292,
+          "y": 609,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3149,6 +3133,68 @@
             "lineHeight": 0,
             "color": "212;205;182"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "persistentUuid": "ed087546-8629-4e21-8258-eb9d5cdd501c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "background",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -3351,6 +3397,9 @@
             "objectName": "P"
           },
           {
+            "objectName": "background"
+          },
+          {
             "objectName": "abundance"
           },
           {
@@ -3407,7 +3456,7 @@
               "parameters": [
                 "T",
                 "-",
-                "5"
+                "10"
               ]
             }
           ]
@@ -3442,16 +3491,30 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "conditions": [],
+          "actions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "UnPauseTimer"
               },
               "parameters": [
                 "",
-                "\"TriangleCoolDown\"",
-                "<",
-                "1"
+                "\"TriangleCoolDown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "triangle_direction",
+                "=",
+                ""
               ]
             }
           ],
@@ -3463,7 +3526,60 @@
               "parameters": [
                 "NewSprite",
                 "+",
-                "3"
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"TriangleCoolDown\"",
+                ">",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TriangleCoolDown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "triangle_direction",
+                "Toggle",
+                ""
               ]
             }
           ]
@@ -5091,519 +5207,19 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-<<<<<<< HEAD
         "zoomFactor": 0.33253870912507727,
-=======
-        "zoomFactor": 0.4633111824513977,
->>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Letter_T",
-          "persistentUuid": "1decf4ee-4b9e-46d1-ad4f-54e3e3af6c5a",
-          "width": 0,
-          "x": 171,
-          "y": 549,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Letter_O",
-          "persistentUuid": "bbee039f-e35a-40e1-84b9-a14b1f27596a",
-          "width": 0,
-          "x": 290,
-          "y": 583,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Letter_P",
-          "persistentUuid": "1b3b7442-413a-418b-b041-342b6e844fcf",
-          "width": 0,
-          "x": 384,
-          "y": 587,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 144,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Slot1",
-          "persistentUuid": "186ac797-b459-475f-b87f-cbdbf48774a4",
-          "width": 135,
-          "x": 128,
-          "y": 374,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 126,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Slot2",
-          "persistentUuid": "f0e1f199-724d-4df7-8350-e07812362deb",
-          "width": 146,
-          "x": 248,
-          "y": 387,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 142,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Slot3",
-          "persistentUuid": "c67ab42e-8228-422b-98e1-b28a17af6db7",
-          "width": 165,
-          "x": 370,
-          "y": 371,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Letter_T",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "checkCollisionMask": true,
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
-            }
-          ],
-          "string": "T",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "T",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Letter_O",
-          "persistentUuid": "dc04a304-4645-4b64-a09d-7f88bc665224",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "checkCollisionMask": true,
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
-            }
-          ],
-          "string": "O",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "O",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Letter_P",
-          "persistentUuid": "eb15a6b5-c959-4336-8edc-9ce136bbf8c9",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "checkCollisionMask": true,
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
-            }
-          ],
-          "string": "P",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "P",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Slot1",
-          "persistentUuid": "c307f66e-650c-48eb-b3fa-15639653c579",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Slot1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Slot1",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 51
-                          },
-                          {
-                            "x": 13,
-                            "y": 51
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Slot2",
-          "persistentUuid": "db47d184-c680-4afc-8860-54cbc350177f",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Slot1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Slot1",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 51
-                          },
-                          {
-                            "x": 13,
-                            "y": 51
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Slot3",
-          "persistentUuid": "bf07d089-0e71-46a0-8b55-2950a60d8553",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Slot1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Slot1",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 13,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 51
-                          },
-                          {
-                            "x": 13,
-                            "y": 51
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
+      "instances": [],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "Letter_T"
-          },
-          {
-            "objectName": "Letter_O"
-          },
-          {
-            "objectName": "Letter_P"
-          },
-          {
-            "objectName": "Slot1"
-          },
-          {
-            "objectName": "Slot2"
-          },
-          {
-            "objectName": "Slot3"
-          }
-        ]
+        "folderName": "__ROOT"
       },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Slot1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Slot2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Slot3"
-              ]
-            }
-          ]
-        }
-      ],
+      "events": [],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -5671,14 +5287,13 @@
           ]
         }
       ],
-<<<<<<< HEAD
       "behaviorsSharedData": []
     },
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Platformer",
+      "name": "Platformer",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -18022,8 +17637,6 @@
           ]
         }
       ],
-=======
->>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
       "behaviorsSharedData": [
         {
           "name": "Animation",
@@ -18042,7 +17655,6 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
-<<<<<<< HEAD
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -18051,21 +17663,628 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
-=======
->>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-<<<<<<< HEAD
-=======
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "The_32Pot",
+      "name": "The Pot",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.24672586957406273,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "clicked",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 730,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "3cab2a95-19b9-4ae1-b8a1-b5883d39588a",
+          "width": 1302,
+          "x": -291,
+          "y": 275,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         },
         {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
->>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 155,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "b23d406d-3459-4929-8213-f9350d6568cc",
+          "width": 161,
+          "x": 114,
+          "y": 993,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 262,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Glove",
+          "persistentUuid": "83ce4896-232d-47e5-8350-187d62ffa2b2",
+          "width": 216,
+          "x": 423,
+          "y": 516,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "dc9d3034-7eed-4e44-ac46-a13986a04520",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "windows.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 3840,
+                            "y": 0
+                          },
+                          {
+                            "x": 3840,
+                            "y": 2155
+                          },
+                          {
+                            "x": 0,
+                            "y": 2155
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "persistentUuid": "f294af89-7437-4f68-909a-10eaaf6505c2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "straight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "the pot2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 83
+                          },
+                          {
+                            "x": 424,
+                            "y": 83
+                          },
+                          {
+                            "x": 424,
+                            "y": 373
+                          },
+                          {
+                            "x": 65,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "flip",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "the pot flip.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 83
+                          },
+                          {
+                            "x": 424,
+                            "y": 83
+                          },
+                          {
+                            "x": 424,
+                            "y": 373
+                          },
+                          {
+                            "x": 65,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "upside down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "pot upside down2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65,
+                            "y": 83
+                          },
+                          {
+                            "x": 424,
+                            "y": 83
+                          },
+                          {
+                            "x": 424,
+                            "y": 373
+                          },
+                          {
+                            "x": 65,
+                            "y": 373
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Glove",
+          "persistentUuid": "34ff9fd5-9930-475e-93c0-c6f589a759d3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "glove.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 90,
+                            "y": 159
+                          },
+                          {
+                            "x": 621,
+                            "y": 159
+                          },
+                          {
+                            "x": 621,
+                            "y": 675
+                          },
+                          {
+                            "x": 90,
+                            "y": 675
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "Glove"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Glove",
+                "=",
+                "CursorX()",
+                "=",
+                "CursorY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "clicked",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "clicked",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "clicked",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Glove",
+                "-90",
+                "900",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Glove",
+                "0",
+                "900",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "clicked",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Glove",
+                "NewSprite2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
@@ -19471,6 +19690,339 @@
           }
         }
       ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Silver-Streak",
+      "category": "Input",
+      "dimension": "",
+      "extensionNamespace": "",
+      "fullName": "Double-click and tap",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMTYiIHkxPSIzIiB4Mj0iMTYiIHkyPSI2Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMTYiIHkxPSIxMCIgeDI9IjE2IiB5Mj0iMTMiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNiwxMEwxNiwxMGMtMS4xLDAtMi0wLjktMi0ydjBjMC0xLjEsMC45LTIsMi0yaDBjMS4xLDAsMiwwLjksMiwydjBDMTgsOS4xLDE3LjEsMTAsMTYsMTB6Ii8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNywxNC4xYzIuMy0wLjcsNS41LTEuMSw5LTEuMWMzLjUsMCw2LjcsMC40LDksMS4xIi8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTYsMjlMMTYsMjljLTUsMC05LTQtOS05di01LjlWOWMwLTMuMywyLjctNiw2LTZoNmMzLjMsMCw2LDIuNyw2LDZ2MTFDMjUsMjUsMjEsMjksMTYsMjl6Ii8+DQo8L3N2Zz4NCg==",
+      "name": "DoubleClick",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_wireless_pc.svg",
+      "shortDescription": "Detect double-click (mouse) or double-tap (touch) on objects or anywhere.",
+      "version": "2.0.1",
+      "description": [
+        "Check for a double-click with a mouse, or a tap and double-click on a touchscreen.",
+        "",
+        "Please note: Touch devices do not have alternatives for middle/right clicks. Taps on a touch device will get counted for _any_ use of these conditions, so you should either design your controls accordingly, or build out separate events if the device has a touch screen."
+      ],
+      "origin": {
+        "identifier": "DoubleClick",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "mouse",
+        "cursor",
+        "pointer",
+        "click",
+        "tap"
+      ],
+      "authorIds": [
+        "8Ih1aa8f5gWUp4UB2BdhQ2iXWxJ3",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "changelog": [
+        {
+          "version": "2.0.0",
+          "breaking": [
+            "- Mouse button value now needs quotes",
+            "- The double-click sensitivity now relies on the device settings"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "globalVariables": [
+        {
+          "name": "MaxDelay",
+          "type": "number",
+          "value": 0.5
+        }
+      ],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onFirstSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "class ClickCounter {",
+                "    // Multiple clicks",
+                "    multipleClickButton = -1;",
+                "    count = 0;",
+                "",
+                "    // Simple click",
+                "    lastButton = -1;",
+                "    lastPointerId = 0;",
+                "    lastTime = 0;",
+                "    hasMoved = false;",
+                "    simpleClickButton = -1;",
+                "",
+                "    constructor() {",
+                "        window.addEventListener(",
+                "            'click',",
+                "            event => {",
+                "                if (event.detail > 1) {",
+                "                    this.multipleClickButton = convertHtmlMouseButtonToInputManagerMouseButton(event.button);",
+                "                    this.count = event.detail;",
+                "                }",
+                "            }",
+                "        );",
+                "",
+                "        // The 'click' event doesn't do any constraint on the 1st click.",
+                "        // It doesn't allow to differenciate a dragging from a click.",
+                "        // So, we check it manually.",
+                "",
+                "        window.addEventListener(",
+                "            'pointerdown',",
+                "            event => {",
+                "                this.lastButton = event.button;",
+                "                this.lastPointerId = event.pointerId;",
+                "                this.lastTime = Date.now();",
+                "                this.hasMoved = false;",
+                "            }",
+                "        );",
+                "",
+                "        window.addEventListener(",
+                "            'pointermove',",
+                "            event => {",
+                "                if (event.pointerId === this.lastPointerId) {",
+                "                    this.hasMoved = true;",
+                "                }",
+                "            }",
+                "        );",
+                "",
+                "        window.addEventListener(",
+                "            'pointerup',",
+                "            (event) => {",
+                "                if (event.button === this.lastButton &&",
+                "                    event.pointerId === this.lastPointerId &&",
+                "                    (!this.hasMoved || Date.now() - this.lastTime < 500)) {",
+                "                    this.simpleClickButton = convertHtmlMouseButtonToInputManagerMouseButton(event.button);",
+                "                    this.lastButton = -1;",
+                "                }",
+                "            }",
+                "        );",
+                "",
+                "    }",
+                "",
+                "    reset() {",
+                "        this.multipleClickButton = -1;",
+                "        this.simpleClickButton = -1;",
+                "    }",
+                "",
+                "    hasClicked(buttonName, clickCount) {",
+                "        const button = gdjs.evtTools.input.mouseButtonsNameToCode[buttonName];",
+                "        if (clickCount === 1) {",
+                "            return button === this.simpleClickButton;",
+                "        }",
+                "        else {",
+                "            return button === this.multipleClickButton && clickCount === this.count",
+                "        }",
+                "    }",
+                "}",
+                "",
+                "// Converts HTML mouse button to InputManager mouse button.",
+                "// This function is used to align HTML button values with GDevelop 3 C++ SFML Mouse button enum values,",
+                "// notably the middle and right buttons.",
+                "function convertHtmlMouseButtonToInputManagerMouseButton(button) {",
+                "    switch (button) {",
+                "        case 1: // Middle button",
+                "            return gdjs.InputManager.MOUSE_MIDDLE_BUTTON;",
+                "        case 2: // Right button",
+                "            return gdjs.InputManager.MOUSE_RIGHT_BUTTON;",
+                "    }",
+                "    return button;",
+                "}",
+                "",
+                "gdjs._DoubleClickExtension = { clickCounter: new ClickCounter() };",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onScenePostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const { clickCounter } = gdjs._DoubleClickExtension;\r",
+                "\r",
+                "clickCounter.reset();\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if the specified mouse button is clicked twice in a short amount of time.",
+          "fullName": "Double-clicked (or double-tapped)",
+          "functionType": "Condition",
+          "name": "HasDoubleClicked",
+          "sentence": "_PARAM1_ mouse button is double-clicked",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "MouseButton",
+                    "2",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Mouse button to track",
+              "longDescription": "As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.",
+              "name": "MouseButton",
+              "type": "mouseButton"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if the specified mouse button is clicked.",
+          "fullName": "Clicked (or tapped)",
+          "functionType": "Condition",
+          "name": "HasSimpleClicked",
+          "sentence": "_PARAM1_ mouse button is clicked",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "MouseButton",
+                    "1",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Mouse button to track",
+              "longDescription": "As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.",
+              "name": "MouseButton",
+              "type": "mouseButton"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if the specified mouse button is clicked.",
+          "fullName": "Clicked (or tapped)",
+          "functionType": "Condition",
+          "name": "HasClicked",
+          "private": true,
+          "sentence": "_PARAM1_ mouse button is clicked _PARAM2_ times",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const { clickCounter } = gdjs._DoubleClickExtension;",
+                "",
+                "const buttonName = eventsFunctionContext.getArgument(\"MouseButton\");",
+                "const clickCount = eventsFunctionContext.getArgument(\"ClickCount\");",
+                "",
+                "eventsFunctionContext.returnValue = clickCounter.hasClicked(buttonName, clickCount);"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Mouse button to track",
+              "longDescription": "As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.",
+              "name": "MouseButton",
+              "type": "mouseButton"
+            },
+            {
+              "description": "Click count",
+              "name": "ClickCount",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onFirstSceneLoaded"
+          },
+          {
+            "functionName": "onScenePostEvents"
+          },
+          {
+            "functionName": "HasDoubleClicked"
+          },
+          {
+            "functionName": "HasSimpleClicked"
+          },
+          {
+            "functionName": "HasClicked"
+          }
+        ]
+      },
+      "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     }
   ],

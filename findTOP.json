@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 265,
+    "build": 269,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -18,8 +18,9 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
-    "name": "findTOP",
+    "name": "findTOP_Quyen",
     "description": "",
     "author": "",
     "windowWidth": 720,
@@ -28,7 +29,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -2830,6 +2859,17 @@
         "name": "glove.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Graduate-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -5207,19 +5247,1050 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33253870912507727,
+        "zoomFactor": 0.7130377630690412,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
+      "variables": [
+        {
+          "name": "L1",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "L2",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "L3",
+          "type": "string",
+          "value": ""
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Col1",
+          "persistentUuid": "1decf4ee-4b9e-46d1-ad4f-54e3e3af6c5a",
+          "width": 0,
+          "x": 221,
+          "y": 449,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Col2",
+          "persistentUuid": "bbee039f-e35a-40e1-84b9-a14b1f27596a",
+          "width": 0,
+          "x": 327,
+          "y": 441,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Col3",
+          "persistentUuid": "1b3b7442-413a-418b-b041-342b6e844fcf",
+          "width": 0,
+          "x": 426,
+          "y": 294,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 312,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "4fea3c73-24ff-4615-91c8-3098e5f67018",
+          "width": 724,
+          "x": -5,
+          "y": 528,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Wintext",
+          "persistentUuid": "24e46f3f-3ea6-4243-8617-b78f3748d3b4",
+          "width": 0,
+          "x": 267,
+          "y": 247,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "c50be8b8-bb40-4b05-92a4-d775eada394c",
+          "width": 4,
+          "x": 294,
+          "y": 612,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0491803278688523,
+          "height": 64,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "366faf04-2d96-40cb-8eaf-a6a55beb6dcf",
+          "width": 4,
+          "x": 401,
+          "y": 612,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0491803278688523,
+          "height": 64,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "e037feae-bbc1-40f0-a99a-33fdb56cc3af",
+          "width": 4,
+          "x": 487,
+          "y": 612,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0491803278688523,
+          "height": 64,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "4ef3dc70-7986-45be-9137-9a254f6c64a3",
+          "width": 4,
+          "x": 198,
+          "y": 612,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 628,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "b70764c1-ec5e-4372-b2ff-6772ab2a088d",
+          "width": 719,
+          "x": 0,
+          "y": -15,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 593,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "72817d91-c8e4-441a-89e3-bc8f38ad14ce",
+          "width": 720,
+          "x": 0,
+          "y": 686,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Col1",
+          "persistentUuid": "d9b3fadd-50a4-4a40-a0f2-92018c5ae5a1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "A\nB\nC\nT\nD\nE",
+          "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 247,
+            "g": 247,
+            "r": 247
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A\nB\nC\nT\nD\nE",
+            "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 75,
+            "color": "247;247;247"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Col2",
+          "persistentUuid": "dc04a304-4645-4b64-a09d-7f88bc665224",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "A\nB\nO\nC\nD\nE\n",
+          "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 247,
+            "g": 247,
+            "r": 247
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A\nB\nO\nC\nD\nE\n",
+            "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 75,
+            "color": "247;247;247"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Col3",
+          "persistentUuid": "eb15a6b5-c959-4336-8edc-9ce136bbf8c9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "A\nP\nB\nC\nD\nE",
+          "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 247,
+            "g": 247,
+            "r": 247
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A\nP\nB\nC\nD\nE",
+            "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 75,
+            "color": "247;247;247"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "persistentUuid": "45028fda-c2f1-47f7-a76d-1da5de28a1ad",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Wintext",
+          "persistentUuid": "a9690b3a-bdd2-4006-86da-0431b73940af",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Win !!!",
+          "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 14,
+            "g": 14,
+            "r": 167
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 6,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Win !!!",
+            "font": "7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "167;14;14"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Line",
+          "persistentUuid": "eb1c213d-af08-4927-a837-7a986d64033d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Col1"
+          },
+          {
+            "objectName": "Wintext"
+          },
+          {
+            "objectName": "Col2"
+          },
+          {
+            "objectName": "Line"
+          },
+          {
+            "objectName": "Col3"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Wintext"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col1",
+                "=",
+                "221",
+                "=",
+                "Col1.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col2",
+                "=",
+                "328",
+                "=",
+                " Col2.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col3",
+                "=",
+                "423",
+                "=",
+                "Col3.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "Col1",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Col1",
+                "Tween",
+                "\"Snap\"",
+                "221",
+                "453 + round((Col1.Y()-453)/75)*75",
+                "\"linear\"",
+                "0.1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "Col2",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Col2",
+                "Tween",
+                "\"Snap\"",
+                "328",
+                "round(Col2.Y()/75)*75",
+                "\"linear\"",
+                "0.1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "Col3",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "Col3",
+                "Tween",
+                "\"Snap\"",
+                "423",
+                "377 + round((Col3.Y()-377)/75)*75",
+                "\"linear\"",
+                "0.1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "round(Col1.Y()/75)",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "L1",
+                "=",
+                "\"T\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "round(Col2.Y()/75) ",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "L2",
+                "=",
+                "\"O\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "round(Col3.Y()/75) ",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "L3",
+                "=",
+                "\"P\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "VariableString(L1)",
+                "=",
+                "\"T\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "VariableString(L2)",
+                "=",
+                "\"O\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "VariableString(L3)",
+                "=",
+                "\"P\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Wintext",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col1.Y()",
+                "<",
+                "228"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col1",
+                "=",
+                "221",
+                "=",
+                "228"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col1.Y() ",
+                ">",
+                "603"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col1",
+                "=",
+                "221",
+                "=",
+                "603"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col2.Y()",
+                "<",
+                "228"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col2",
+                "=",
+                "328",
+                "=",
+                "228"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col2.Y() ",
+                ">",
+                "603"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col2",
+                "=",
+                "328",
+                "=",
+                "603"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col3.Y()",
+                "<",
+                "228"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col3",
+                "=",
+                "423",
+                "=",
+                "228"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Col3.Y() ",
+                ">",
+                "603"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Col3",
+                "=",
+                "423",
+                "=",
+                "603"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -5287,7 +6358,40 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "b": 255,
@@ -5312,7 +6416,6 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 0.24672586957406317,
-        "zoomFactor": 0.7370816317994044,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5331,11 +6434,6 @@
           "width": 0,
           "x": 256,
           "y": 640,
-          "name": "Col1",
-          "persistentUuid": "1decf4ee-4b9e-46d1-ad4f-54e3e3af6c5a",
-          "width": 0,
-          "x": 221,
-          "y": 449,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5352,11 +6450,6 @@
           "width": 0,
           "x": 288,
           "y": 992,
-          "name": "Col2",
-          "persistentUuid": "bbee039f-e35a-40e1-84b9-a14b1f27596a",
-          "width": 0,
-          "x": 327,
-          "y": 441,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5373,11 +6466,6 @@
           "width": 0,
           "x": 352,
           "y": 992,
-          "name": "Col3",
-          "persistentUuid": "1b3b7442-413a-418b-b041-342b6e844fcf",
-          "width": 0,
-          "x": 426,
-          "y": 300,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5395,33 +6483,6 @@
           "x": 224,
           "y": 992,
           "zOrder": 4,
-          "customSize": true,
-          "depth": 1,
-          "height": 312,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "4fea3c73-24ff-4615-91c8-3098e5f67018",
-          "width": 724,
-          "x": -5,
-          "y": 528,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wintext",
-          "persistentUuid": "24e46f3f-3ea6-4243-8617-b78f3748d3b4",
-          "width": 0,
-          "x": 267,
-          "y": 247,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6182,99 +7243,6 @@
           "x": 0,
           "y": 544,
           "zOrder": -3,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "c50be8b8-bb40-4b05-92a4-d775eada394c",
-          "width": 4,
-          "x": 294,
-          "y": 620,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1.0491803278688523,
-          "height": 64,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "366faf04-2d96-40cb-8eaf-a6a55beb6dcf",
-          "width": 4,
-          "x": 401,
-          "y": 619,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1.0491803278688523,
-          "height": 64,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "e037feae-bbc1-40f0-a99a-33fdb56cc3af",
-          "width": 4,
-          "x": 486,
-          "y": 619,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1.0491803278688523,
-          "height": 64,
-          "layer": "",
-          "name": "Line",
-          "persistentUuid": "4ef3dc70-7986-45be-9137-9a254f6c64a3",
-          "width": 4,
-          "x": 198,
-          "y": 619,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 628,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "b70764c1-ec5e-4372-b2ff-6772ab2a088d",
-          "width": 719,
-          "x": 0,
-          "y": -15,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 611,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Background",
-          "persistentUuid": "72817d91-c8e4-441a-89e3-bc8f38ad14ce",
-          "width": 720,
-          "x": 0,
-          "y": 689,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6288,18 +7256,12 @@
           "persistentUuid": "e2a8b83c-8723-4159-aa60-e3bd339e52df",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Col1",
-          "persistentUuid": "d9b3fadd-50a4-4a40-a0f2-92018c5ae5a1",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -6312,9 +7274,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -6737,160 +7697,6 @@
           "assetStoreId": "c4600f094f2f7a1be0e29901618678e667d5c654bb2ec5e95ce74efa446db3cd",
           "name": "barnacle",
           "persistentUuid": "aa4689e1-c994-48dd-88af-93fc4105d15f",
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "A\nB\nC\nT\nD\nE",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 247,
-            "g": 247,
-            "r": 247
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "A\nB\nC\nT\nD\nE",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 75,
-            "color": "247;247;247"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Col2",
-          "persistentUuid": "dc04a304-4645-4b64-a09d-7f88bc665224",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "A\nB\nO\nC\nD\nE\n",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 247,
-            "g": 247,
-            "r": 247
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "A\nB\nO\nC\nD\nE\n",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 75,
-            "color": "247;247;247"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Col3",
-          "persistentUuid": "eb15a6b5-c959-4336-8edc-9ce136bbf8c9",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "A\nP\nB\nC\nD\nE",
-          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 247,
-            "g": 247,
-            "r": 247
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 4,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "A\nP\nB\nC\nD\nE",
-            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 75,
-            "color": "247;247;247"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Background",
-          "persistentUuid": "45028fda-c2f1-47f7-a76d-1da5de28a1ad",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6899,7 +7705,6 @@
           "animations": [
             {
               "name": "Attack",
-              "name": "NewSprite",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -8872,10 +9677,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -13260,10 +14065,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -14231,10 +15036,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -14529,7 +15334,6 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "coin bronze_face.png",
-                      "image": "NewSprite3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16019,10 +16823,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -16184,6 +16988,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -16196,9 +17002,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -16835,10 +17639,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -17136,20 +17940,6 @@
                           {
                             "x": 13,
                             "y": 52
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
                           }
                         ]
                       ]
@@ -17221,55 +18011,12 @@
               ]
             }
           ]
-          "bold": true,
-          "italic": false,
-          "name": "Wintext",
-          "persistentUuid": "a9690b3a-bdd2-4006-86da-0431b73940af",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Win !!!",
-          "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
-          "textAlignment": "left",
-          "characterSize": 70,
-          "color": {
-            "b": 14,
-            "g": 14,
-            "r": 167
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 6,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Win !!!",
-            "font": "6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 70,
-            "lineHeight": 0,
-            "color": "167;14;14"
-          }
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite2",
           "persistentUuid": "edb0545f-fb4c-4ddc-9804-852d429bed0b",
-          "name": "Line",
-          "persistentUuid": "eb1c213d-af08-4927-a837-7a986d64033d",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17278,7 +18025,6 @@
           "animations": [
             {
               "name": "NewSprite",
-              "name": "NewSprite2",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -17339,10 +18085,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -17590,22 +18336,6 @@
           },
           {
             "objectName": "NewSprite2"
-            "objectName": "Col1"
-          },
-          {
-            "objectName": "Wintext"
-          },
-          {
-            "objectName": "Col2"
-          },
-          {
-            "objectName": "Line"
-          },
-          {
-            "objectName": "Col3"
-          },
-          {
-            "objectName": "Background"
           }
         ]
       },
@@ -17835,7 +18565,6 @@
                 "character_purple.X() + 40",
                 "=",
                 "character_purple.Y() - 18"
-                "Wintext"
               ]
             }
           ]
@@ -18080,11 +18809,6 @@
           "name": "clicked",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "flip",
-          "type": "number",
-          "value": 0
         }
       ],
       "instances": [
@@ -18450,38 +19174,6 @@
                 "CursorX()",
                 "=",
                 "CursorY()"
-<<<<<<< HEAD
-=======
-                "Col1",
-                "=",
-                "221",
-                "=",
-                "Col1.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Col2",
-                "=",
-                "328",
-                "=",
-                " Col2.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Col3",
-                "=",
-                "423",
-                "=",
-                "Col3.Y()"
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
               ]
             }
           ]
@@ -18495,13 +19187,6 @@
               },
               "parameters": [
                 "",
-<<<<<<< HEAD
-=======
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Col1",
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
                 "\"Left\""
               ]
             },
@@ -18514,12 +19199,6 @@
                 "False",
                 ""
               ]
-<<<<<<< HEAD
-=======
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
             }
           ],
           "actions": [
@@ -18539,20 +19218,6 @@
               },
               "parameters": [
                 "1.2"
-<<<<<<< HEAD
-=======
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Col1",
-                "Tween",
-                "\"Snap\"",
-                "221",
-                "453 + round((Col1.Y()-453)/75)*75",
-                "\"linear\"",
-                "0.1",
-                "no"
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
               ]
             }
           ]
@@ -18568,89 +19233,6 @@
                 "clicked",
                 "True",
                 ""
-<<<<<<< HEAD
-=======
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Col2",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Col2",
-                "Tween",
-                "\"Snap\"",
-                "328",
-                "round(Col2.Y()/75)*75",
-                "\"linear\"",
-                "0.1",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "Col3",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "Col3",
-                "Tween",
-                "\"Snap\"",
-                "423",
-                "377 + round((Col3.Y()-377)/75)*75",
-                "\"linear\"",
-                "0.1",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "round(Col1.Y()/75)",
-                "=",
-                "5"
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
               ]
             }
           ],
@@ -18664,84 +19246,6 @@
                 "-90",
                 "900",
                 ""
-<<<<<<< HEAD
-=======
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "L1",
-                "=",
-                "\"T\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "round(Col2.Y()/75) ",
-                "=",
-                "6"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "L2",
-                "=",
-                "\"O\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "round(Col3.Y()/75) ",
-                "=",
-                "7"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "L3",
-                "=",
-                "\"P\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "VariableString(L1)",
-                "=",
-                "\"T\""
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
               ]
             },
             {
@@ -18750,15 +19254,6 @@
               },
               "parameters": [
                 "1"
-<<<<<<< HEAD
-=======
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "VariableString(L2)",
-                "=",
-                "\"O\""
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
               ]
             },
             {
@@ -18779,25 +19274,6 @@
               "parameters": [
                 "clicked",
                 "False",
-<<<<<<< HEAD
-=======
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "VariableString(L3)",
-                "=",
-                "\"P\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "Wintext",
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
                 ""
               ]
             }
@@ -18817,135 +19293,8 @@
                 "",
                 ""
               ]
-<<<<<<< HEAD
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-=======
             }
           ],
-                "value": "BuiltinCommonInstructions::CompareNumbers"
->>>>>>> 2a3670631bc99ab940cfd6171b567ca2fca4eee6
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "flip",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Animation",
-                "=",
-                "\"flip\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "flip",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Glove",
-                "NewSprite2",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "flip",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "NewSprite2",
-                "Animation",
-                "=",
-                "\"upside down\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "flip",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
           "actions": []
         }
       ],

@@ -5241,7 +5241,6 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-<<<<<<< HEAD
         "zoomFactor": 0.33253870912507727,
         "windowMask": false,
         "selectedLayer": "",
@@ -5347,9 +5346,7 @@
         "gridAlpha": 0.8,
         "snap": true,
         "zoomFactor": 0.24672586957406317,
-=======
         "zoomFactor": 0.7370816317994044,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5379,19 +5376,16 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-<<<<<<< HEAD
           "name": "block",
           "persistentUuid": "435ecbe3-698b-4495-958f-fa355355f059",
           "width": 0,
           "x": 256,
           "y": 640,
-=======
           "name": "Col1",
           "persistentUuid": "1decf4ee-4b9e-46d1-ad4f-54e3e3af6c5a",
           "width": 0,
           "x": 221,
           "y": 449,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5403,19 +5397,16 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-<<<<<<< HEAD
           "name": "bridge",
           "persistentUuid": "23816a6e-cd81-486c-8312-9590cb5f3cc1",
           "width": 0,
           "x": 288,
           "y": 992,
-=======
           "name": "Col2",
           "persistentUuid": "bbee039f-e35a-40e1-84b9-a14b1f27596a",
           "width": 0,
           "x": 327,
           "y": 441,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5427,19 +5418,16 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-<<<<<<< HEAD
           "name": "bridge",
           "persistentUuid": "819c070e-a31f-4db0-8906-ed53dcb9f34e",
           "width": 0,
           "x": 352,
           "y": 992,
-=======
           "name": "Col3",
           "persistentUuid": "1b3b7442-413a-418b-b041-342b6e844fcf",
           "width": 0,
           "x": 426,
           "y": 300,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5447,7 +5435,6 @@
         },
         {
           "angle": 0,
-<<<<<<< HEAD
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -5458,7 +5445,6 @@
           "x": 224,
           "y": 992,
           "zOrder": 4,
-=======
           "customSize": true,
           "depth": 1,
           "height": 312,
@@ -5486,14 +5472,12 @@
           "x": 267,
           "y": 247,
           "zOrder": 8,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-<<<<<<< HEAD
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -6248,7 +6232,6 @@
           "x": 0,
           "y": 544,
           "zOrder": -3,
-=======
           "customSize": true,
           "depth": 1,
           "height": 64,
@@ -6260,7 +6243,6 @@
           "x": 294,
           "y": 620,
           "zOrder": 6,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6350,14 +6332,12 @@
       ],
       "objects": [
         {
-<<<<<<< HEAD
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "9ea98a3c510871f615338e9efe864fabd934c14691ef4bef6da8f0935e5538f4",
           "name": "character_purple",
           "persistentUuid": "e2a8b83c-8723-4159-aa60-e3bd339e52df",
           "type": "Sprite",
           "updateIfNotVisible": false,
-=======
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -6366,12 +6346,10 @@
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "variables": [],
           "effects": [],
           "behaviors": [
             {
-<<<<<<< HEAD
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -6809,7 +6787,6 @@
           "assetStoreId": "c4600f094f2f7a1be0e29901618678e667d5c654bb2ec5e95ce74efa446db3cd",
           "name": "barnacle",
           "persistentUuid": "aa4689e1-c994-48dd-88af-93fc4105d15f",
-=======
               "name": "Draggable",
               "type": "DraggableBehavior::Draggable",
               "checkCollisionMask": true
@@ -6964,7 +6941,6 @@
           "assetStoreId": "",
           "name": "Background",
           "persistentUuid": "45028fda-c2f1-47f7-a76d-1da5de28a1ad",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6972,11 +6948,8 @@
           "behaviors": [],
           "animations": [
             {
-<<<<<<< HEAD
               "name": "Attack",
-=======
               "name": "NewSprite",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6985,7 +6958,6 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-<<<<<<< HEAD
                       "image": "barnacle_Attack_1.png",
                       "points": [],
                       "originPoint": {
@@ -14607,9 +14579,7 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "coin bronze_face.png",
-=======
                       "image": "NewSprite3",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14625,7 +14595,6 @@
                       "customCollisionMask": [
                         [
                           {
-<<<<<<< HEAD
                             "x": 13,
                             "y": 12
                           },
@@ -17217,7 +17186,6 @@
                           {
                             "x": 13,
                             "y": 52
-=======
                             "x": 0,
                             "y": 0
                           },
@@ -17232,7 +17200,6 @@
                           {
                             "x": 0,
                             "y": 64
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                           }
                         ]
                       ]
@@ -17245,7 +17212,6 @@
         },
         {
           "assetStoreId": "",
-<<<<<<< HEAD
           "name": "NewSprite",
           "persistentUuid": "7e5ae12c-c86b-4d1f-9e79-6498e596dbfd",
           "type": "Sprite",
@@ -17304,7 +17270,6 @@
               ]
             }
           ]
-=======
           "bold": true,
           "italic": false,
           "name": "Wintext",
@@ -17346,18 +17311,14 @@
             "lineHeight": 0,
             "color": "167;14;14"
           }
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
         },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-<<<<<<< HEAD
           "name": "NewSprite2",
           "persistentUuid": "edb0545f-fb4c-4ddc-9804-852d429bed0b",
-=======
           "name": "Line",
           "persistentUuid": "eb1c213d-af08-4927-a837-7a986d64033d",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -17365,11 +17326,8 @@
           "behaviors": [],
           "animations": [
             {
-<<<<<<< HEAD
               "name": "NewSprite",
-=======
               "name": "NewSprite2",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -17409,7 +17367,6 @@
                           {
                             "x": 0,
                             "y": 64
-<<<<<<< HEAD
                           }
                         ]
                       ]
@@ -17480,8 +17437,6 @@
                           {
                             "x": 0,
                             "y": 64
-=======
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                           }
                         ]
                       ]
@@ -17497,7 +17452,6 @@
         "folderName": "__ROOT",
         "children": [
           {
-<<<<<<< HEAD
             "objectName": "character_purple"
           },
           {
@@ -17685,7 +17639,6 @@
           },
           {
             "objectName": "NewSprite2"
-=======
             "objectName": "Col1"
           },
           {
@@ -17702,7 +17655,6 @@
           },
           {
             "objectName": "Background"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           }
         ]
       },
@@ -17916,7 +17868,6 @@
                 "value": "PlatformBehavior::Gravity"
               },
               "parameters": [
-<<<<<<< HEAD
                 "key",
                 "PlatformerObject",
                 "=",
@@ -17933,16 +17884,13 @@
                 "character_purple.X() + 40",
                 "=",
                 "character_purple.Y() - 18"
-=======
                 "Wintext"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-<<<<<<< HEAD
           "conditions": [
             {
               "type": {
@@ -18534,8 +18482,6 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-=======
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "conditions": [],
           "actions": [
             {
@@ -18543,13 +18489,11 @@
                 "value": "SetXY"
               },
               "parameters": [
-<<<<<<< HEAD
                 "Glove",
                 "=",
                 "CursorX()",
                 "=",
                 "CursorY()"
-=======
                 "Col1",
                 "=",
                 "221",
@@ -18579,7 +18523,6 @@
                 "423",
                 "=",
                 "Col3.Y()"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ]
@@ -18589,23 +18532,19 @@
           "conditions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
-=======
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
                 "Col1",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                 "\"Left\""
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "BooleanVariable"
               },
               "parameters": [
@@ -18613,17 +18552,14 @@
                 "False",
                 ""
               ]
-=======
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
             }
           ],
           "actions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "SetBooleanVariable"
               },
               "parameters": [
@@ -18638,7 +18574,6 @@
               },
               "parameters": [
                 "1.2"
-=======
                 "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
@@ -18650,7 +18585,6 @@
                 "\"linear\"",
                 "0.1",
                 "no"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ]
@@ -18660,14 +18594,12 @@
           "conditions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "BooleanVariable"
               },
               "parameters": [
                 "clicked",
                 "True",
                 ""
-=======
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
@@ -18748,14 +18680,12 @@
                 "round(Col1.Y()/75)",
                 "=",
                 "5"
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             }
           ],
           "actions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "RotateTowardAngle"
               },
               "parameters": [
@@ -18763,7 +18693,6 @@
                 "-90",
                 "900",
                 ""
-=======
                 "value": "SetStringVariable"
               },
               "parameters": [
@@ -18839,29 +18768,24 @@
                 "VariableString(L1)",
                 "=",
                 "\"T\""
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "Wait"
               },
               "parameters": [
                 "1"
-=======
                 "value": "BuiltinCommonInstructions::CompareStrings"
               },
               "parameters": [
                 "VariableString(L2)",
                 "=",
                 "\"O\""
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
               ]
             },
             {
               "type": {
-<<<<<<< HEAD
                 "value": "RotateTowardAngle"
               },
               "parameters": [
@@ -18878,7 +18802,6 @@
               "parameters": [
                 "clicked",
                 "False",
-=======
                 "value": "BuiltinCommonInstructions::CompareStrings"
               },
               "parameters": [
@@ -18895,7 +18818,6 @@
               },
               "parameters": [
                 "Wintext",
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
                 ""
               ]
             }
@@ -18906,7 +18828,6 @@
           "conditions": [
             {
               "type": {
-<<<<<<< HEAD
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -18918,7 +18839,6 @@
               ]
             }
           ],
-=======
                 "value": "BuiltinCommonInstructions::CompareNumbers"
               },
               "parameters": [
@@ -19091,7 +19011,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
->>>>>>> 690e9612ec9d73d1d664eb7986a753367626f7e9
           "actions": []
         }
       ],

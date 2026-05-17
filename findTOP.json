@@ -1,7 +1,6 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -18,6 +17,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
     "name": "findTOP",
     "description": "",
@@ -129,6 +129,7 @@
         "userAdded": false
       },
       {
+<<<<<<< HEAD
         "file": "assets/Flashlight.png",
         "kind": "image",
         "metadata": "",
@@ -204,10 +205,20 @@
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+=======
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+>>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
           "name": "gdevelop-asset-store"
         }
       },
       {
+<<<<<<< HEAD
         "file": "assets/character purple_climb_1.png",
         "kind": "image",
         "metadata": "",
@@ -2764,14 +2775,88 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "blue",
+=======
+        "file": "assets/Slot1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slot1",
+>>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
         "smoothed": true,
         "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "background",
+      "persistentUuid": "ed087546-8629-4e21-8258-eb9d5cdd501c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "background2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "background"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -2807,11 +2892,6 @@
       "variables": [
         {
           "name": "T_sway",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "triangle_direction",
           "type": "boolean",
           "value": false
         }
@@ -2912,8 +2992,8 @@
           "name": "T",
           "persistentUuid": "4b36601d-5cc0-43d2-a7fc-624b28d3ffde",
           "width": 160,
-          "x": 292,
-          "y": 609,
+          "x": 291,
+          "y": 608,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3069,68 +3149,6 @@
             "lineHeight": 0,
             "color": "212;205;182"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "background",
-          "persistentUuid": "ed087546-8629-4e21-8258-eb9d5cdd501c",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "background",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "background2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "assetStoreId": "",
@@ -3333,9 +3351,6 @@
             "objectName": "P"
           },
           {
-            "objectName": "background"
-          },
-          {
             "objectName": "abundance"
           },
           {
@@ -3392,7 +3407,7 @@
               "parameters": [
                 "T",
                 "-",
-                "10"
+                "5"
               ]
             }
           ]
@@ -3427,30 +3442,16 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "UnPauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"TriangleCoolDown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "CompareTimer"
               },
               "parameters": [
-                "triangle_direction",
-                "=",
-                ""
+                "",
+                "\"TriangleCoolDown\"",
+                "<",
+                "1"
               ]
             }
           ],
@@ -3462,60 +3463,7 @@
               "parameters": [
                 "NewSprite",
                 "+",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Else",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "NewSprite",
-                "-",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"TriangleCoolDown\"",
-                ">",
-                "0.3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"TriangleCoolDown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "triangle_direction",
-                "Toggle",
-                ""
+                "3"
               ]
             }
           ]
@@ -5143,19 +5091,519 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< HEAD
         "zoomFactor": 0.33253870912507727,
+=======
+        "zoomFactor": 0.4633111824513977,
+>>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Letter_T",
+          "persistentUuid": "1decf4ee-4b9e-46d1-ad4f-54e3e3af6c5a",
+          "width": 0,
+          "x": 171,
+          "y": 549,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Letter_O",
+          "persistentUuid": "bbee039f-e35a-40e1-84b9-a14b1f27596a",
+          "width": 0,
+          "x": 290,
+          "y": 583,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Letter_P",
+          "persistentUuid": "1b3b7442-413a-418b-b041-342b6e844fcf",
+          "width": 0,
+          "x": 384,
+          "y": 587,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 144,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slot1",
+          "persistentUuid": "186ac797-b459-475f-b87f-cbdbf48774a4",
+          "width": 135,
+          "x": 128,
+          "y": 374,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 126,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slot2",
+          "persistentUuid": "f0e1f199-724d-4df7-8350-e07812362deb",
+          "width": 146,
+          "x": 248,
+          "y": 387,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 142,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slot3",
+          "persistentUuid": "c67ab42e-8228-422b-98e1-b28a17af6db7",
+          "width": 165,
+          "x": 370,
+          "y": 371,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Letter_T",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "string": "T",
+          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "T",
+            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Letter_O",
+          "persistentUuid": "dc04a304-4645-4b64-a09d-7f88bc665224",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "string": "O",
+          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "O",
+            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Letter_P",
+          "persistentUuid": "eb15a6b5-c959-4336-8edc-9ce136bbf8c9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "string": "P",
+          "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 4,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "P",
+            "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Slot1",
+          "persistentUuid": "c307f66e-650c-48eb-b3fa-15639653c579",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Slot1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Slot1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 51
+                          },
+                          {
+                            "x": 13,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Slot2",
+          "persistentUuid": "db47d184-c680-4afc-8860-54cbc350177f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Slot1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Slot1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 51
+                          },
+                          {
+                            "x": 13,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Slot3",
+          "persistentUuid": "bf07d089-0e71-46a0-8b55-2950a60d8553",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Slot1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Slot1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 13,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 51
+                          },
+                          {
+                            "x": 13,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Letter_T"
+          },
+          {
+            "objectName": "Letter_O"
+          },
+          {
+            "objectName": "Letter_P"
+          },
+          {
+            "objectName": "Slot1"
+          },
+          {
+            "objectName": "Slot2"
+          },
+          {
+            "objectName": "Slot3"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Slot1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Slot2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Slot3"
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -5223,6 +5671,7 @@
           ]
         }
       ],
+<<<<<<< HEAD
       "behaviorsSharedData": []
     },
     {
@@ -17573,6 +18022,8 @@
           ]
         }
       ],
+=======
+>>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
       "behaviorsSharedData": [
         {
           "name": "Animation",
@@ -17591,6 +18042,7 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+<<<<<<< HEAD
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -17599,12 +18051,21 @@
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
+=======
+>>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+<<<<<<< HEAD
+=======
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+>>>>>>> 69b5fc3039fe577b7db759bbf9a13c70added9a0
         }
       ]
     }

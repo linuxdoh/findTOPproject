@@ -170,6 +170,11 @@
           "name": "T_sway",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "triangle_direction",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -783,16 +788,30 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "conditions": [],
+          "actions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "UnPauseTimer"
               },
               "parameters": [
                 "",
-                "\"TriangleCoolDown\"",
-                "<",
-                "1"
+                "\"TriangleCoolDown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "triangle_direction",
+                "=",
+                ""
               ]
             }
           ],
@@ -804,7 +823,60 @@
               "parameters": [
                 "NewSprite",
                 "+",
-                "3"
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "NewSprite",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"TriangleCoolDown\"",
+                ">",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TriangleCoolDown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "triangle_direction",
+                "Toggle",
+                ""
               ]
             }
           ]

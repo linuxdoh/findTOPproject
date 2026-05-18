@@ -19989,7 +19989,7 @@
           "initialVariables": []
         },
         {
-          "angle": 54,
+          "angle": 62,
           "customSize": true,
           "depth": 0,
           "height": 163,
@@ -19997,8 +19997,8 @@
           "name": "arrow_right",
           "persistentUuid": "33b6ceb5-9eac-40ee-8025-0c7d40471591",
           "width": 175,
-          "x": 499,
-          "y": 374,
+          "x": 496,
+          "y": 382,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -20194,22 +20194,6 @@
           "x": 123,
           "y": 58,
           "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Question2",
-          "name": "Count",
-          "persistentUuid": "546b8a00-c3c1-4d52-918f-1c3ef4b6e05c",
-          "width": 0,
-          "x": 1422,
-          "y": 733,
-          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22676,7 +22660,7 @@
           "isLocked": false,
           "name": "Question2",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22730,7 +22714,7 @@
           "isLocked": false,
           "name": "Question3",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {

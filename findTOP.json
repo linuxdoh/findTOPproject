@@ -3521,6 +3521,34 @@
         "name": "9e.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Jump_Start_03.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "c456062e89ad9bc88fb6487d3956870b11799a49e233c149517d9053b48dbeee_Jump_Start_03.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Tile/Jump/c456062e89ad9bc88fb6487d3956870b11799a49e233c149517d9053b48dbeee_Jump_Start_03.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/sfx_select.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "8ac12da89d0aed1661191165aea62dcd98d5a6cb42b399ea30fdb7b739095e52_sfx_select.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Sounds/8ac12da89d0aed1661191165aea62dcd98d5a6cb42b399ea30fdb7b739095e52_sfx_select.ogg",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -3529,7 +3557,47 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "current_level",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "levels",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "Flashlight"
+        },
+        {
+          "type": "string",
+          "value": "Combination Lock"
+        },
+        {
+          "type": "string",
+          "value": "Platformer"
+        },
+        {
+          "type": "string",
+          "value": "The Pot"
+        },
+        {
+          "type": "string",
+          "value": "Hair in wind"
+        },
+        {
+          "type": "string",
+          "value": "Build stair"
+        },
+        {
+          "type": "string",
+          "value": "Switch-on button"
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "b": 255,
@@ -3544,16 +3612,16 @@
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridDepth": 32,
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridDepth": 16,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.255045547335434,
+        "zoomFactor": 0.2725359896772932,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3567,6 +3635,50 @@
         },
         {
           "name": "triangle_direction",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "triangle_x_position",
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 168
+            },
+            {
+              "type": "number",
+              "value": 261
+            },
+            {
+              "type": "number",
+              "value": 372
+            },
+            {
+              "type": "number",
+              "value": 458
+            },
+            {
+              "type": "number",
+              "value": 664
+            },
+            {
+              "type": "number",
+              "value": 825
+            },
+            {
+              "type": "number",
+              "value": 1016
+            }
+          ]
+        },
+        {
+          "name": "current_triangle_x_position",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "sfx_on",
           "type": "boolean",
           "value": false
         }
@@ -3610,14 +3722,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1310,
+          "height": 1280,
           "keepRatio": true,
           "layer": "",
           "name": "background",
           "persistentUuid": "91479d10-5512-47d6-a9e0-4c19b237e6e2",
-          "width": 739,
+          "width": 720,
           "x": 0,
-          "y": -30,
+          "y": 0,
           "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3644,14 +3756,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 572,
+          "height": 537,
           "keepRatio": true,
           "layer": "",
           "name": "abundance",
           "persistentUuid": "a8645929-3c73-4699-aa12-87fd8946461f",
           "width": 148,
           "x": 280,
-          "y": -35,
+          "y": 0,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3684,8 +3796,8 @@
           "name": "NewSprite",
           "persistentUuid": "cfe9331a-607e-4e9e-ac28-f0285baec62a",
           "width": 39,
-          "x": 521,
-          "y": 664,
+          "x": 492,
+          "y": 172,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3932,25 +4044,6 @@
           }
         },
         {
-          "assetStoreId": "",
-          "name": "NewBBText",
-          "persistentUuid": "746330e0-277c-4f8e-8a7f-33d287cfd3de",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
-            "opacity": 255,
-            "fontSize": 20,
-            "visible": true,
-            "color": "0;0;0",
-            "fontFamily": "Arial",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "abundance",
@@ -4097,9 +4190,6 @@
             "objectName": "findText"
           },
           {
-            "objectName": "NewBBText"
-          },
-          {
             "objectName": "NewSprite"
           }
         ]
@@ -4121,15 +4211,78 @@
             },
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "DoubleClick::HasSimpleClicked"
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "\"Left\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "T",
+                "-",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "T_sway",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"q\""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "T",
+                "-",
+                "7"
+              ]
+            },
             {
               "type": {
                 "value": "SetBooleanVariable"
@@ -4142,12 +4295,95 @@
             },
             {
               "type": {
-                "value": "SetY"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "T",
-                "-",
-                "5"
+                "sfx_on",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "T_sway",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "levels[current_level]",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "sfx_on",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "8ac12da89d0aed1661191165aea62dcd98d5a6cb42b399ea30fdb7b739095e52_sfx_select.ogg",
+                "no",
+                "80",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "c456062e89ad9bc88fb6487d3956870b11799a49e233c149517d9053b48dbeee_Jump_Start_03.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "8ac12da89d0aed1661191165aea62dcd98d5a6cb42b399ea30fdb7b739095e52_sfx_select.ogg",
+                "no",
+                "80",
+                "1"
               ]
             }
           ]
@@ -4217,7 +4453,7 @@
               "parameters": [
                 "NewSprite",
                 "+",
-                "1"
+                "0.7"
               ]
             }
           ]
@@ -4233,7 +4469,7 @@
               "parameters": [
                 "NewSprite",
                 "-",
-                "1"
+                "0.7"
               ]
             }
           ]
@@ -4274,6 +4510,88 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "mod(current_triangle_x_position - 1, 7)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Down\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "mod(current_triangle_x_position + 1, 7)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -4377,8 +4695,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Darkroom_32with_32a_32Flashlight",
-      "name": "Darkroom with a Flashlight",
+      "mangledName": "Flashlight",
+      "name": "Flashlight",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -5739,6 +6057,18 @@
             }
           ],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -5879,8 +6209,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Gameplay",
-      "name": "Gameplay",
+      "mangledName": "Combination_32Lock",
+      "name": "Combination Lock",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -5898,7 +6228,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49508400737488983,
+        "zoomFactor": 0.28172599320795644,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7016,6 +7346,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -7142,7 +7484,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.24672586957406317,
+        "zoomFactor": 0.06334164344484466,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -19399,6 +19741,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -20022,6 +20376,18 @@
               ]
             }
           ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
         }
       ],
@@ -21382,6 +21748,7 @@
           "bold": true,
           "italic": false,
           "name": "Count",
+          "persistentUuid": "304f863d-0499-47a0-a72c-a83aa790cf57",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -23009,6 +23376,18 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -23243,7 +23622,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488232,
+        "zoomFactor": 0.19561100536769313,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -27526,6 +27905,18 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -27633,8 +28024,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Switch_32on_32button",
-      "name": "Switch on button",
+      "mangledName": "Switch_45on_32button",
+      "name": "Switch-on button",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -27652,7 +28043,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3325387091250785,
+        "zoomFactor": 0.28172599320795694,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -29522,6 +29913,13 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -30484,6 +30882,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Loading Scene"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -30587,6 +30997,94 @@
           "type": "Tween::TweenBehavior"
         }
       ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Win",
+      "name": "Win",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [
@@ -30765,6 +31263,184 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Start Game",
+      "name": "Loading Scene",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DoesSceneExist"
+              },
+              "parameters": [
+                "",
+                "levels[current_level+1]"
+              ]
+            },
+            {
+              "type": {
+                "value": "DoesSceneExist"
+              },
+              "parameters": [
+                "",
+                "levels[current_level+2]"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RemoveVariableAt"
+              },
+              "parameters": [
+                "levels",
+                "current_level+1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DoesSceneExist"
+              },
+              "parameters": [
+                "",
+                "levels[current_level+2]"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DoesSceneExist"
+              },
+              "parameters": [
+                "",
+                "levels[current_level+1]"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Equal\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Win\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Equal\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_level",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "levels[current_level]",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Dash\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushString"
+              },
+              "parameters": [
+                "levels",
+                "levels[current_level+2]"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "levels[current_level + 2]",
+                "=",
+                "levels[current_level]"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_level",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "levels[current_level]",
+                ""
+              ]
+            }
+          ]
         }
       ]
     }

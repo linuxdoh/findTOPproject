@@ -3569,6 +3569,56 @@
         "name": "NewSprite14",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "button_BG3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button_BG3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Comic Game Loop - Mischief.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "226c49a40b52068e2f1a80bbcc6ef6461bda024dc981db0d4d018223f75e2bc9_Comic Game Loop - Mischief.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/226c49a40b52068e2f1a80bbcc6ef6461bda024dc981db0d4d018223f75e2bc9_Comic Game Loop - Mischief.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Confirm_07.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "222c4c4667ba3a363e40fbabfd8254fb486e4bb4881207587dc0ad7fa1ab5a99_Confirm_07.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/222c4c4667ba3a363e40fbabfd8254fb486e4bb4881207587dc0ad7fa1ab5a99_Confirm_07.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Scream 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a110b5cba945dcc6616d52e0e24b7f8f77a4e62f0e60db7818c31ac3b6cc95da_Scream 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/a110b5cba945dcc6616d52e0e24b7f8f77a4e62f0e60db7818c31ac3b6cc95da_Scream 3.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -3650,7 +3700,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2725359896772932,
+        "zoomFactor": 0.1912707325276152,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3704,7 +3754,7 @@
         {
           "name": "current_triangle_x_position",
           "type": "number",
-          "value": 1
+          "value": 0
         },
         {
           "name": "sfx_on",
@@ -3717,14 +3767,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 194,
+          "height": 153,
           "keepRatio": true,
           "layer": "",
           "name": "P",
           "persistentUuid": "d3862876-376f-4664-a214-596c0d497035",
           "width": 128,
-          "x": 298,
-          "y": 1118,
+          "x": 295,
+          "y": 1090,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3734,15 +3784,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 176,
+          "height": 183,
           "keepRatio": true,
           "layer": "",
           "name": "O",
           "persistentUuid": "e267de15-f63e-4877-8fc9-3e2a9a3de2de",
           "width": 160,
           "x": 290,
-          "y": 750,
-          "zOrder": 3,
+          "y": 743,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3785,7 +3835,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 537,
+          "height": 574,
           "keepRatio": true,
           "layer": "",
           "name": "abundance",
@@ -3828,6 +3878,114 @@
           "x": 492,
           "y": 172,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 152,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blank_5",
+          "opacity": 0,
+          "persistentUuid": "00678e17-a517-429e-bdaa-002214c9b042",
+          "width": 164,
+          "x": 268,
+          "y": 767,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blank_6",
+          "opacity": 0,
+          "persistentUuid": "3c125b97-c20c-44d2-91ec-b11d90066ea4",
+          "width": 172,
+          "x": 269,
+          "y": 928,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blank_4",
+          "opacity": 0,
+          "persistentUuid": "0ebc750f-df0d-4a6b-91ac-35df465f3b20",
+          "width": 192,
+          "x": 254,
+          "y": 449,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blank_3",
+          "opacity": 0,
+          "persistentUuid": "2a3903ee-f92f-4fc4-9c47-3b7301b9e9f6",
+          "width": 192,
+          "x": 260,
+          "y": 330,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blank_2",
+          "opacity": 0,
+          "persistentUuid": "ef2290cf-c76f-4ae8-9166-4de5c711fa06",
+          "width": 192,
+          "x": 255,
+          "y": 226,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Blank_1",
+          "opacity": 0,
+          "persistentUuid": "93c64c29-95e3-49e9-95ea-a416d114d424",
+          "width": 192,
+          "x": 263,
+          "y": 139,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4195,6 +4353,372 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank_5",
+          "persistentUuid": "c623dc3b-ac0c-4a63-b589-a151b95d27b9",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "button_BG3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 41,
+                            "y": 57
+                          },
+                          {
+                            "x": 508,
+                            "y": 57
+                          },
+                          {
+                            "x": 508,
+                            "y": 237
+                          },
+                          {
+                            "x": 41,
+                            "y": 237
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank_6",
+          "persistentUuid": "3519437d-9ecd-4ec4-9cbf-304c45ccb7ff",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank_1",
+          "persistentUuid": "0e066d0b-cb0c-41b6-b6df-da618c8d2895",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "button_BG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 18
+                          },
+                          {
+                            "x": 473,
+                            "y": 18
+                          },
+                          {
+                            "x": 473,
+                            "y": 154
+                          },
+                          {
+                            "x": 1,
+                            "y": 154
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank_2",
+          "persistentUuid": "d7401c29-91ec-4267-a192-b2a81fc0120d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank_3",
+          "persistentUuid": "98f48d1e-e13b-486f-8f83-e1740a60ed49",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank_4",
+          "persistentUuid": "6fb09cf6-cf7f-44c0-b348-936fa4143426",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "background",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4220,10 +4744,73 @@
           },
           {
             "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Blank_1"
+          },
+          {
+            "objectName": "Blank_2"
+          },
+          {
+            "objectName": "Blank_3"
+          },
+          {
+            "objectName": "Blank_4"
+          },
+          {
+            "objectName": "Blank_5"
+          },
+          {
+            "objectName": "Blank_6"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "a110b5cba945dcc6616d52e0e24b7f8f77a4e62f0e60db7818c31ac3b6cc95da_Scream 3.aac"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "226c49a40b52068e2f1a80bbcc6ef6461bda024dc981db0d4d018223f75e2bc9_Comic Game Loop - Mischief.aac",
+                "yes",
+                "35",
+                "1.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "222c4c4667ba3a363e40fbabfd8254fb486e4bb4881207587dc0ad7fa1ab5a99_Confirm_07.aac"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -4262,8 +4849,8 @@
               },
               "parameters": [
                 "T",
-                "-",
-                "7"
+                "=",
+                "580"
               ]
             },
             {
@@ -4273,6 +4860,65 @@
               "parameters": [
                 "T_sway",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "sfx_on",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "a110b5cba945dcc6616d52e0e24b7f8f77a4e62f0e60db7818c31ac3b6cc95da_Scream 3.aac",
+                "",
+                "",
                 ""
               ]
             }
@@ -4297,7 +4943,7 @@
               },
               "parameters": [
                 "",
-                "\"q\""
+                "\"Return\""
               ]
             }
           ],
@@ -4308,8 +4954,8 @@
               },
               "parameters": [
                 "T",
-                "-",
-                "7"
+                "=",
+                "580"
               ]
             },
             {
@@ -4335,6 +4981,34 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "a110b5cba945dcc6616d52e0e24b7f8f77a4e62f0e60db7818c31ac3b6cc95da_Scream 3.aac",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4349,6 +5023,14 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -4384,23 +5066,11 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySound"
+                "value": "UnloadSound"
               },
               "parameters": [
                 "",
-                "8ac12da89d0aed1661191165aea62dcd98d5a6cb42b399ea30fdb7b739095e52_sfx_select.ogg",
-                "no",
-                "80",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "PreloadSound"
-              },
-              "parameters": [
-                "",
-                "c456062e89ad9bc88fb6487d3956870b11799a49e233c149517d9053b48dbeee_Jump_Start_03.wav"
+                "226c49a40b52068e2f1a80bbcc6ef6461bda024dc981db0d4d018223f75e2bc9_Comic Game Loop - Mischief.aac"
               ]
             },
             {
@@ -4409,10 +5079,10 @@
               },
               "parameters": [
                 "",
-                "8ac12da89d0aed1661191165aea62dcd98d5a6cb42b399ea30fdb7b739095e52_sfx_select.ogg",
-                "no",
-                "80",
-                "1"
+                "222c4c4667ba3a363e40fbabfd8254fb486e4bb4881207587dc0ad7fa1ab5a99_Confirm_07.aac",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -4619,6 +5289,294 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Blank_1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Blank_2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Blank_3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Blank_4",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Blank_5",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Blank_6",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DoubleClick::HasSimpleClicked"
+              },
+              "parameters": [
+                "",
+                "\"Left\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "current_triangle_x_position",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "NewSprite",
+                "=",
+                "triangle_x_position[current_triangle_x_position]"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         }
@@ -4743,7 +5701,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2636457673770801,
+        "zoomFactor": 0.2912258866911115,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -6773,11 +7731,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
